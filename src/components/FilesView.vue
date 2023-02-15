@@ -1,8 +1,8 @@
 <template>
-    <el-container v-loading="isLoading" class="browser">
-        <el-empty description="No file" v-if="files.length == 0"/>
+    <el-container v-loading="isLoading" class="browser" :style="{'justify-content': 'center'}">
+        <el-empty description="No file" v-if="files.length == 0" />
 
-        <el-col>
+        <el-col v-else>
             <el-row v-for="item in files">
                 <a @click="navi(item)" class="list">
                     <div class="button">
