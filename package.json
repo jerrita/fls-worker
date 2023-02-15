@@ -1,0 +1,30 @@
+{
+  "name": "rlist",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@highlightjs/vue-plugin": "highlightjs/vue-plugin",
+    "axios": "^1.3.2",
+    "element-plus": "^2.2.29",
+    "highlight.js": "^11.7.0",
+    "highlightjs": "^9.16.2",
+    "unplugin-auto-import": "^0.13.0",
+    "unplugin-element-plus": "^0.6.0",
+    "unplugin-icons": "^0.15.3",
+    "unplugin-vue-components": "^0.23.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.0"
+  }
+}
