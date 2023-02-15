@@ -55,7 +55,11 @@ const navi = (item) => {
         router.push(item.name)
     } else {
         // window.location.href = config.r2fix + props.route + item.name
-        window.open(config.r2fix + props.route + item.name, "_blank")
+        router.push({
+            path: '/preview',
+            query: {file: props.route + item.name}
+        })
+        // window.open(config.r2fix + props.route + item.name, "_blank")
     }
 }
 

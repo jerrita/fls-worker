@@ -7,7 +7,7 @@
   </div>
 
   <div class="footer">
-    <p>Jerrita's share list service</p>
+    <p>Jerrita's file list service</p>
     <p>Copywrong © 2023 Jerrita</p>
   </div>
 </template>
