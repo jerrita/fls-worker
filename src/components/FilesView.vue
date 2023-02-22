@@ -71,6 +71,7 @@ onMounted(() => reloadFileList());
 <style>
 .browser {
     min-height: 60vh;
+    justify-content: center;
 }
 
 .list {
