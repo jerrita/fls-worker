@@ -15,6 +15,7 @@
     "element-plus": "^2.2.29",
     "highlight.js": "^11.7.0",
     "highlightjs": "^9.16.2",
+    "lodash": "^4.17.21",
     "unplugin-auto-import": "^0.13.0",
     "unplugin-element-plus": "^0.6.0",
     "unplugin-icons": "^0.15.3",
