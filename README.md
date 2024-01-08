@@ -2,7 +2,7 @@
 
 This is a simple file list service based on cloudflare pages、functions and R2
 
-Example site: https://fls.tisato.live
+Example site: https://fls.ka5umi.eu.org
 
 ![](./img/show.png)
 
